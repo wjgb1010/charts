@@ -124,7 +124,7 @@ dependencies:
     repository: https://wjgb1010.github.io/charts/
     condition: uuid-gen-api.enabled
   - name: tree-api
-    version: 2.39.5
+    version: 2.39.6
     repository: https://wjgb1010.github.io/charts/
     condition: tree-api.enabled
   - name: vpn-spa
