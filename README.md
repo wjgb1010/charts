@@ -3,7 +3,7 @@
 ## For use
 
 ```bash
-helm repo add sorbapp https://miguelciego.github.io/charts/
+helm repo add sorbapp https://wjgb1010.github.io/charts/
 helm upgrade my-tree-api sorbapp/tree-api --install
 ```
 
@@ -28,5 +28,5 @@ helm package helm-chart-sources/*
 Comando para actualizar el archivo index.yaml
 
 ```bash
-helm repo index . --url https://miguelciego.github.io/charts/
+helm repo index . --url https://wjgb1010.github.io/charts/
 ```

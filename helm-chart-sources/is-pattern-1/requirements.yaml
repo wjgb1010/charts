@@ -15,5 +15,5 @@
 dependencies:
   - name: mysql-is
     version: "5.11.05"
-    repository: "https://miguelciego.github.io/charts"
+    repository: "https://wjgb1010.github.io/charts"
     condition: wso2.deployment.dependencies.mysql.enabled

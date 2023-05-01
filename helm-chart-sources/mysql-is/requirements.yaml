@@ -14,4 +14,4 @@
 dependencies:
   - name: mysql-wso2
     version: "1.6.9"
-    repository: "https://miguelciego.github.io/charts"
+    repository: "https://wjgb1010.github.io/charts"

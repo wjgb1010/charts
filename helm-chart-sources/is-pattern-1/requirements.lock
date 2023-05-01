@@ -1,6 +1,6 @@
 dependencies:
 - name: mysql-is
-  repository: https://miguelciego.github.io/charts
+  repository: https://wjgb1010.github.io/charts
   version: 5.11.05
 digest: sha256:1748fc9138376d4c324eb5cfca4aee1a0c1909641f1b7b885711669f92a894f9
 generated: "2022-11-20T10:21:05.1391957-04:00"

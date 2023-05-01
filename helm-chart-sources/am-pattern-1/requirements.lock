@@ -1,9 +1,9 @@
 dependencies:
 - name: mysql-am
-  repository: https://miguelciego.github.io/charts
+  repository: https://wjgb1010.github.io/charts
   version: 4.1.01
 - name: nfs-server-provisioner
-  repository: https://miguelciego.github.io/charts
+  repository: https://wjgb1010.github.io/charts
   version: 1.1.0
 digest: sha256:5a019d11af91f8e50936c751070db37cf44a399a18e52f5b2a1d7969b666e805
 generated: "2022-12-14T11:51:53.877609958-04:00"

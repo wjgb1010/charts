@@ -7,11 +7,11 @@ entries:
     dependencies:
     - condition: wso2.deployment.dependencies.mysql
       name: mysql-am
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 4.1.01
     - condition: wso2.deployment.dependencies.nfsServerProvisioner
       name: nfs-server-provisioner
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 1.1.0
     description: A Helm chart for the deployment of WSO2 API Manager Pattern 1 (HA
       All-In-One Deployment)
@@ -19,7 +19,7 @@ entries:
     icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
     name: am-pattern-1
     urls:
-    - https://miguelciego.github.io/charts/am-pattern-1-4.1.01.tgz
+    - https://wjgb1010.github.io/charts/am-pattern-1-4.1.01.tgz
     version: 4.1.01
   app-sorba:
   - apiVersion: v2
@@ -28,7 +28,7 @@ entries:
     dependencies:
     - condition: vernemq.enabled
       name: vernemq
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 1.6.12
     - condition: cert-manager.enabled
       name: cert-manager
@@ -44,19 +44,19 @@ entries:
       version: 5.11.0
     - condition: is-pattern-1.enabled
       name: is-pattern-1
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 5.11.05
     - condition: am-pattern-1.enabled
       name: am-pattern-1
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 4.1.01
     - condition: grafana.enabled
       name: grafana
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 7.6.19
     - condition: mysql-sorba.enabled
       name: mysql-sorba
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 9.4.1
     - condition: phpmyadmin.enabled
       name: phpmyadmin
@@ -72,95 +72,95 @@ entries:
       version: 4.12.0
     - condition: ml-trainer-api.enabled
       name: ml-trainer-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: ml-ui.enabled
       name: ml-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: mqtt-to-influxdb-2y.enabled
       name: mqtt-to-influxdb-2y
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: ng-api-gateway.enabled
       name: ng-api-gateway
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: platform-ui.enabled
       name: platform-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: preferences-api.enabled
       name: preferences-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: rtdb-sync-pub.enabled
       name: rtdb-sync-pub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: rtdb-sync-sub.enabled
       name: rtdb-sync-sub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: events-middleware.enabled
       name: events-middleware
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: identity-ui.enabled
       name: identity-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: identity-api.enabled
       name: identity-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: messages-mediator.enabled
       name: messages-mediator
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: oee-engine.enabled
       name: oee-engine
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: oee-ui.enabled
       name: oee-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: sde-socket.enabled
       name: sde-socket
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: task-flows-backend.enabled
       name: task-flows-backend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: task-flows-frontend.enabled
       name: task-flows-frontend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: uuid-gen-api.enabled
       name: uuid-gen-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.6
     - condition: tree-api.enabled
       name: tree-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: vpn-spa.enabled
       name: vpn-spa
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: tenant-management-api.enabled
       name: tenant-management-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: tenant-management-ui.enabled
       name: tenant-management-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: sorba-identity-api.enabled
       name: sorba-identity-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     description: Sorba Helm Chart
     digest: 713240f9109a58118ea5a3a90a14efc04144cd81687cae1032ee56e359625739
@@ -168,7 +168,7 @@ entries:
     name: app-sorba
     type: application
     urls:
-    - https://miguelciego.github.io/charts/app-sorba-0.2.6.tgz
+    - https://wjgb1010.github.io/charts/app-sorba-0.2.6.tgz
     version: 0.2.6
   - apiVersion: v2
     appVersion: 0.2.0
@@ -192,19 +192,19 @@ entries:
       version: 5.11.0
     - condition: is-pattern-1.enabled
       name: is-pattern-1
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 5.11.05
     - condition: am-pattern-1.enabled
       name: am-pattern-1
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 4.1.01
     - condition: grafana.enabled
       name: grafana
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 7.6.19
     - condition: mysql-sorba.enabled
       name: mysql-sorba
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 9.4.1
     - condition: phpmyadmin.enabled
       name: phpmyadmin
@@ -220,91 +220,91 @@ entries:
       version: 4.12.0
     - condition: ml-trainer-api.enabled
       name: ml-trainer-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: ml-ui.enabled
       name: ml-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: mqtt-to-influxdb-2y.enabled
       name: mqtt-to-influxdb-2y
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: ng-api-gateway.enabled
       name: ng-api-gateway
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: platform-ui.enabled
       name: platform-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: preferences-api.enabled
       name: preferences-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: rtdb-sync-pub.enabled
       name: rtdb-sync-pub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: rtdb-sync-sub.enabled
       name: rtdb-sync-sub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: events-middleware.enabled
       name: events-middleware
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.4
     - condition: identity-ui.enabled
       name: identity-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: identity-api.enabled
       name: identity-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.4
     - condition: messages-mediator.enabled
       name: messages-mediator
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.4
     - condition: oee-engine.enabled
       name: oee-engine
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: oee-ui.enabled
       name: oee-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: sde-socket.enabled
       name: sde-socket
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: task-flows-backend.enabled
       name: task-flows-backend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: task-flows-frontend.enabled
       name: task-flows-frontend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: uuid-gen-api.enabled
       name: uuid-gen-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.7
     - condition: tree-api.enabled
       name: tree-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.5
     - condition: tree-api.enabled
       name: vpn-spa
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: tenant-management-api.enabled
       name: tenant-management-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: tenant-management-ui.enabled
       name: tenant-management-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     description: Sorba Helm Chart
     digest: 72ff05a1c1c5f8cb71fd2a6cd72f8272375f8878b930a671b8186d5be603d485
@@ -312,7 +312,7 @@ entries:
     name: app-sorba
     type: application
     urls:
-    - https://miguelciego.github.io/charts/app-sorba-0.2.5.tgz
+    - https://wjgb1010.github.io/charts/app-sorba-0.2.5.tgz
     version: 0.2.5
   - apiVersion: v2
     appVersion: 0.2.0
@@ -336,19 +336,19 @@ entries:
       version: 5.11.0
     - condition: is-pattern-1.enabled
       name: is-pattern-1
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 5.11.05
     - condition: am-pattern-1.enabled
       name: am-pattern-1
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 4.1.01
     - condition: grafana.enabled
       name: grafana
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 7.6.19
     - condition: mysql-sorba.enabled
       name: mysql-sorba
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 9.4.1
     - condition: phpmyadmin.enabled
       name: phpmyadmin
@@ -364,83 +364,83 @@ entries:
       version: 4.12.0
     - condition: ml-trainer-api.enabled
       name: ml-trainer-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: ml-ui.enabled
       name: ml-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: mqtt-to-influxdb-2y.enabled
       name: mqtt-to-influxdb-2y
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: ng-api-gateway.enabled
       name: ng-api-gateway
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: platform-ui.enabled
       name: platform-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: preferences-api.enabled
       name: preferences-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: rtdb-sync-pub.enabled
       name: rtdb-sync-pub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: rtdb-sync-sub.enabled
       name: rtdb-sync-sub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: events-middleware.enabled
       name: events-middleware
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: identity-ui.enabled
       name: identity-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: identity-api.enabled
       name: identity-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: messages-mediator.enabled
       name: messages-mediator
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: oee-engine.enabled
       name: oee-engine
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: oee-ui.enabled
       name: oee-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: sde-socket.enabled
       name: sde-socket
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: task-flows-backend.enabled
       name: task-flows-backend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: task-flows-frontend.enabled
       name: task-flows-frontend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: uuid-gen-api.enabled
       name: uuid-gen-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.6
     - condition: tree-api.enabled
       name: tree-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: tree-api.enabled
       name: vpn-spa
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     description: Sorba Helm Chart
     digest: 6300faf302cfa799de833be1d4b9b984531980deeeaa77e0c0c73c34f4c4c385
@@ -448,7 +448,7 @@ entries:
     name: app-sorba
     type: application
     urls:
-    - https://miguelciego.github.io/charts/app-sorba-0.2.4.tgz
+    - https://wjgb1010.github.io/charts/app-sorba-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v2
     appVersion: 0.2.0
@@ -472,11 +472,11 @@ entries:
       version: 5.11.0
     - condition: is-pattern-1.enabled
       name: is-pattern-1
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 5.11.05
     - condition: am-pattern-1.enabled
       name: am-pattern-1
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 4.1.01
     - condition: grafana.enabled
       name: grafana
@@ -500,79 +500,79 @@ entries:
       version: 4.12.0
     - condition: ml-trainer-api.enabled
       name: ml-trainer-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: ml-ui.enabled
       name: ml-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: mqtt-to-influxdb-2y.enabled
       name: mqtt-to-influxdb-2y
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: ng-api-gateway.enabled
       name: ng-api-gateway
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: platform-ui.enabled
       name: platform-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: preferences-api.enabled
       name: preferences-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.1
     - condition: rtdb-sync-pub.enabled
       name: rtdb-sync-pub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: rtdb-sync-sub.enabled
       name: rtdb-sync-sub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: events-middleware.enabled
       name: events-middleware
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: identity-ui.enabled
       name: identity-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: identity-api.enabled
       name: identity-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: messages-mediator.enabled
       name: messages-mediator
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: oee-engine.enabled
       name: oee-engine
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: oee-ui.enabled
       name: oee-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: sde-socket.enabled
       name: sde-socket
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: task-flows-backend.enabled
       name: task-flows-backend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: task-flows-frontend.enabled
       name: task-flows-frontend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.2
     - condition: uuid-gen-api.enabled
       name: uuid-gen-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.6
     - condition: tree-api.enabled
       name: tree-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     description: Sorba Helm Chart
     digest: 041706d22f29af5ff23ab75827b216282c8517fa0ef128573fb6336723629a9f
@@ -580,7 +580,7 @@ entries:
     name: app-sorba
     type: application
     urls:
-    - https://miguelciego.github.io/charts/app-sorba-0.2.3.tgz
+    - https://wjgb1010.github.io/charts/app-sorba-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
     appVersion: 0.2.0
@@ -633,79 +633,79 @@ entries:
       version: 4.12.0
     - condition: uuid-gen-api.enabled
       name: uuid-gen-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.3
     - condition: tree-api.enabled
       name: tree-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: ml-trainer-api.enabled
       name: ml-trainer-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: ml-ui.enabled
       name: ml-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: mqtt-to-influxdb-2y.enabled
       name: mqtt-to-influxdb-2y
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: ng-api-gateway.enabled
       name: ng-api-gateway
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: platform-ui.enabled
       name: platform-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: preferences-api.enabled
       name: preferences-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: rtdb-sync-pub.enabled
       name: rtdb-sync-pub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: rtdb-sync-sub.enabled
       name: rtdb-sync-sub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: events-middleware.enabled
       name: events-middleware
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: identity-ui.enabled
       name: identity-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: identity-api.enabled
       name: identity-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: messages-mediator.enabled
       name: messages-mediator
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: oee-engine.enabled
       name: oee-engine
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: oee-ui.enabled
       name: oee-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: sde-socket.enabled
       name: sde-socket
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: task-flows-backend.enabled
       name: task-flows-backend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: task-flows-frontend.enabled
       name: task-flows-frontend
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     description: Sorba Helm Chart
     digest: d71b6112eb2ee897459e0dd3b80dc9d70f342024736221c91a7c39615dbc4ad0
@@ -713,7 +713,7 @@ entries:
     name: app-sorba
     type: application
     urls:
-    - https://miguelciego.github.io/charts/app-sorba-0.2.2.tgz
+    - https://wjgb1010.github.io/charts/app-sorba-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
     appVersion: 0.2.0
@@ -766,43 +766,43 @@ entries:
       version: 4.12.0
     - condition: uuid-gen-api.enabled
       name: uuid-gen-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: tree-api.enabled
       name: tree-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: ml-trainer-api.enabled
       name: ml-trainer-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: ml-ui.enabled
       name: ml-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: mqtt-to-influxdb-2y.enabled
       name: mqtt-to-influxdb-2y
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: ng-api-gateway.enabled
       name: ng-api-gateway
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: platform-ui.enabled
       name: platform-ui
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: preferences-api.enabled
       name: preferences-api
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: rtdb-sync-pub.enabled
       name: rtdb-sync-pub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - condition: rtdb-sync-sub.enabled
       name: rtdb-sync-sub
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     description: Sorba Helm Chart
     digest: a656b197237c956d77e204047007fcea533122967a543c0ddaf0f3af106f9f92
@@ -810,7 +810,7 @@ entries:
     name: app-sorba
     type: application
     urls:
-    - https://miguelciego.github.io/charts/app-sorba-0.2.1.tgz
+    - https://wjgb1010.github.io/charts/app-sorba-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
@@ -864,12 +864,12 @@ entries:
     - alias: uuid-gen-api
       condition: auto-deploy-app.enabled
       name: auto-deploy-app
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     - alias: tree-api
       condition: auto-deploy-app.enabled
       name: auto-deploy-app
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 2.39.0
     description: Sorba Helm Chart
     digest: 2062d241fb59b37442451ca9f177702412f43e7ae1a93bb6c0f7b199227b8d93
@@ -877,14 +877,14 @@ entries:
     name: app-sorba
     type: application
     urls:
-    - https://miguelciego.github.io/charts/app-sorba-0.2.0.tgz
+    - https://wjgb1010.github.io/charts/app-sorba-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     created: "2023-04-07T11:16:04.809295983-04:00"
     dependencies:
     - condition: is-pattern-1.enabled
       name: is-pattern-1
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 5.11.02
     - condition: redis.enabled
       name: redis
@@ -896,15 +896,15 @@ entries:
       version: 9.3.5
     - condition: uuid-gen-api.enabled
       name: uuid-gen-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: rtdb-sync-pub.enabled
       name: rtdb-sync-pub
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: rtdb-sync-sub.enabled
       name: rtdb-sync-sub
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: influxdb.enabled
       name: influxdb
@@ -912,35 +912,35 @@ entries:
       version: 2.0.5
     - condition: hdfs-api.enabled
       name: hdfs-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: ml-trainer-api.enabled
       name: ml-trainer-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: ml-trainer-ui.enabled
       name: ml-trainer-ui
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: preferences-api.enabled
       name: preferences-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: tree-api.enabled
       name: tree-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: ng-api-gateway.enabled
       name: ng-api-gateway
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: platform-ui.enabled
       name: platform-ui
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: mqtt-to-influxdb-2y.enabled
       name: mqtt-to-influxdb-2y
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: grafana.enabled
       name: grafana
@@ -948,7 +948,7 @@ entries:
       version: 5.2.4
     - condition: vernemq.enabled
       name: vernemq
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 1.6.7
     - condition: nginx-ingress-controller.enabled
       name: nginx-ingress-controller
@@ -959,7 +959,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: app-sorba
     urls:
-    - https://miguelciego.github.io/charts/app-sorba-0.1.0.tgz
+    - https://wjgb1010.github.io/charts/app-sorba-0.1.0.tgz
     version: 0.1.0
   app-sorba1:
   - apiVersion: v2
@@ -970,7 +970,7 @@ entries:
     name: app-sorba1
     type: application
     urls:
-    - https://miguelciego.github.io/charts/app-sorba1-0.1.0.tgz
+    - https://wjgb1010.github.io/charts/app-sorba1-0.1.0.tgz
     version: 0.1.0
   auto-deploy-app:
   - apiVersion: v1
@@ -980,7 +980,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: auto-deploy-app
     urls:
-    - https://miguelciego.github.io/charts/auto-deploy-app-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/auto-deploy-app-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.314795561-04:00"
@@ -989,7 +989,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: auto-deploy-app
     urls:
-    - https://miguelciego.github.io/charts/auto-deploy-app-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/auto-deploy-app-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.318009266-04:00"
@@ -998,7 +998,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: auto-deploy-app
     urls:
-    - https://miguelciego.github.io/charts/auto-deploy-app-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/auto-deploy-app-2.4.0.tgz
     version: 2.4.0
   auto-deploy-app-cps:
   - apiVersion: v1
@@ -1008,7 +1008,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: auto-deploy-app-cps
     urls:
-    - https://miguelciego.github.io/charts/auto-deploy-app-cps-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/auto-deploy-app-cps-2.4.0.tgz
     version: 2.4.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.320457704-04:00"
@@ -1017,7 +1017,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: auto-deploy-app-cps
     urls:
-    - https://miguelciego.github.io/charts/auto-deploy-app-cps.tgz
+    - https://wjgb1010.github.io/charts/auto-deploy-app-cps.tgz
     version: 2.4.0
   auto-deploy-app-gitlab:
   - apiVersion: v1
@@ -1027,7 +1027,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: auto-deploy-app-gitlab
     urls:
-    - https://miguelciego.github.io/charts/auto-deploy-app-gitlab-2.16.0.tgz
+    - https://wjgb1010.github.io/charts/auto-deploy-app-gitlab-2.16.0.tgz
     version: 2.16.0
   events-middleware:
   - apiVersion: v1
@@ -1037,7 +1037,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: events-middleware
     urls:
-    - https://miguelciego.github.io/charts/events-middleware-2.39.4.tgz
+    - https://wjgb1010.github.io/charts/events-middleware-2.39.4.tgz
     version: 2.39.4
   - apiVersion: v1
     created: "2023-04-07T11:16:05.331061147-04:00"
@@ -1046,7 +1046,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: events-middleware
     urls:
-    - https://miguelciego.github.io/charts/events-middleware-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/events-middleware-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.328895086-04:00"
@@ -1055,7 +1055,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: events-middleware
     urls:
-    - https://miguelciego.github.io/charts/events-middleware-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/events-middleware-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.32512822-04:00"
@@ -1064,7 +1064,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: events-middleware
     urls:
-    - https://miguelciego.github.io/charts/events-middleware-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/events-middleware-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.323066667-04:00"
@@ -1073,7 +1073,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: events-middleware
     urls:
-    - https://miguelciego.github.io/charts/events-middleware-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/events-middleware-2.39.0.tgz
     version: 2.39.0
   grafana:
   - annotations:
@@ -1105,7 +1105,7 @@ entries:
     - https://github.com/bitnami/bitnami-docker-grafana
     - https://grafana.com/
     urls:
-    - https://miguelciego.github.io/charts/grafana-7.6.19.tgz
+    - https://wjgb1010.github.io/charts/grafana-7.6.19.tgz
     version: 7.6.19
   hdfs-api:
   - apiVersion: v1
@@ -1115,7 +1115,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: hdfs-api
     urls:
-    - https://miguelciego.github.io/charts/hdfs-api-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/hdfs-api-2.4.0.tgz
     version: 2.4.0
   identity-api:
   - apiVersion: v1
@@ -1125,7 +1125,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: identity-api
     urls:
-    - https://miguelciego.github.io/charts/identity-api-2.39.4.tgz
+    - https://wjgb1010.github.io/charts/identity-api-2.39.4.tgz
     version: 2.39.4
   - apiVersion: v1
     created: "2023-04-07T11:16:05.347562379-04:00"
@@ -1134,7 +1134,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: identity-api
     urls:
-    - https://miguelciego.github.io/charts/identity-api-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/identity-api-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.344562648-04:00"
@@ -1143,7 +1143,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: identity-api
     urls:
-    - https://miguelciego.github.io/charts/identity-api-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/identity-api-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.34195152-04:00"
@@ -1152,7 +1152,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: identity-api
     urls:
-    - https://miguelciego.github.io/charts/identity-api-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/identity-api-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.339973496-04:00"
@@ -1161,7 +1161,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: identity-api
     urls:
-    - https://miguelciego.github.io/charts/identity-api-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/identity-api-2.39.0.tgz
     version: 2.39.0
   identity-ui:
   - apiVersion: v1
@@ -1171,7 +1171,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: identity-ui
     urls:
-    - https://miguelciego.github.io/charts/identity-ui-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/identity-ui-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.35769444-04:00"
@@ -1180,7 +1180,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: identity-ui
     urls:
-    - https://miguelciego.github.io/charts/identity-ui-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/identity-ui-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.355553677-04:00"
@@ -1189,7 +1189,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: identity-ui
     urls:
-    - https://miguelciego.github.io/charts/identity-ui-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/identity-ui-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.351827142-04:00"
@@ -1198,7 +1198,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: identity-ui
     urls:
-    - https://miguelciego.github.io/charts/identity-ui-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/identity-ui-2.39.0.tgz
     version: 2.39.0
   is-pattern-1:
   - apiVersion: v1
@@ -1207,7 +1207,7 @@ entries:
     dependencies:
     - condition: wso2.deployment.dependencies.mysql.enabled
       name: mysql-is
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 5.11.05
     description: A Helm chart for the deployment of WSO2 Identity And Access Management
       pattern 1
@@ -1215,7 +1215,7 @@ entries:
     icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
     name: is-pattern-1
     urls:
-    - https://miguelciego.github.io/charts/is-pattern-1-5.11.05.tgz
+    - https://wjgb1010.github.io/charts/is-pattern-1-5.11.05.tgz
     version: 5.11.05
   - apiVersion: v1
     appVersion: 5.11.0
@@ -1223,7 +1223,7 @@ entries:
     dependencies:
     - condition: wso2.mysql.enabled
       name: mysql-is
-      repository: https://miguelciego.github.io/charts/
+      repository: https://wjgb1010.github.io/charts/
       version: 5.11.02
     description: A Helm chart for the deployment of WSO2 Identity And Access Management
       pattern 1
@@ -1231,7 +1231,7 @@ entries:
     icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
     name: is-pattern-1
     urls:
-    - https://miguelciego.github.io/charts/is-pattern-1-5.11.02.tgz
+    - https://wjgb1010.github.io/charts/is-pattern-1-5.11.02.tgz
     version: 5.11.02
   messages-mediator:
   - apiVersion: v1
@@ -1241,7 +1241,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: messages-mediator
     urls:
-    - https://miguelciego.github.io/charts/messages-mediator-2.39.4.tgz
+    - https://wjgb1010.github.io/charts/messages-mediator-2.39.4.tgz
     version: 2.39.4
   - apiVersion: v1
     created: "2023-04-07T11:16:05.381288759-04:00"
@@ -1250,7 +1250,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: messages-mediator
     urls:
-    - https://miguelciego.github.io/charts/messages-mediator-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/messages-mediator-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.378291246-04:00"
@@ -1259,7 +1259,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: messages-mediator
     urls:
-    - https://miguelciego.github.io/charts/messages-mediator-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/messages-mediator-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.375995629-04:00"
@@ -1268,7 +1268,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: messages-mediator
     urls:
-    - https://miguelciego.github.io/charts/messages-mediator-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/messages-mediator-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.374022966-04:00"
@@ -1277,7 +1277,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: messages-mediator
     urls:
-    - https://miguelciego.github.io/charts/messages-mediator-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/messages-mediator-2.39.0.tgz
     version: 2.39.0
   ml-trainer-api:
   - apiVersion: v1
@@ -1287,7 +1287,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ml-trainer-api
     urls:
-    - https://miguelciego.github.io/charts/ml-trainer-api-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/ml-trainer-api-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.3898559-04:00"
@@ -1296,7 +1296,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ml-trainer-api
     urls:
-    - https://miguelciego.github.io/charts/ml-trainer-api-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/ml-trainer-api-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.385561007-04:00"
@@ -1305,7 +1305,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ml-trainer-api
     urls:
-    - https://miguelciego.github.io/charts/ml-trainer-api-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/ml-trainer-api-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.393306505-04:00"
@@ -1314,7 +1314,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ml-trainer-api
     urls:
-    - https://miguelciego.github.io/charts/ml-trainer-api-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/ml-trainer-api-2.4.0.tgz
     version: 2.4.0
   ml-trainer-ui:
   - apiVersion: v1
@@ -1324,7 +1324,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ml-trainer-ui
     urls:
-    - https://miguelciego.github.io/charts/ml-trainer-ui-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/ml-trainer-ui-2.4.0.tgz
     version: 2.4.0
   ml-ui:
   - apiVersion: v1
@@ -1334,7 +1334,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ml-ui
     urls:
-    - https://miguelciego.github.io/charts/ml-ui-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/ml-ui-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.399585721-04:00"
@@ -1343,7 +1343,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ml-ui
     urls:
-    - https://miguelciego.github.io/charts/ml-ui-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/ml-ui-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.397209083-04:00"
@@ -1352,7 +1352,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ml-ui
     urls:
-    - https://miguelciego.github.io/charts/ml-ui-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/ml-ui-2.39.0.tgz
     version: 2.39.0
   mqtt-to-influxdb-2y:
   - apiVersion: v1
@@ -1362,7 +1362,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: mqtt-to-influxdb-2y
     urls:
-    - https://miguelciego.github.io/charts/mqtt-to-influxdb-2y-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/mqtt-to-influxdb-2y-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.406565829-04:00"
@@ -1371,7 +1371,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: mqtt-to-influxdb-2y
     urls:
-    - https://miguelciego.github.io/charts/mqtt-to-influxdb-2y-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/mqtt-to-influxdb-2y-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.403479379-04:00"
@@ -1380,7 +1380,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: mqtt-to-influxdb-2y
     urls:
-    - https://miguelciego.github.io/charts/mqtt-to-influxdb-2y-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/mqtt-to-influxdb-2y-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.409821373-04:00"
@@ -1389,7 +1389,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: mqtt-to-influxdb-2y
     urls:
-    - https://miguelciego.github.io/charts/mqtt-to-influxdb-2y-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/mqtt-to-influxdb-2y-2.4.0.tgz
     version: 2.4.0
   mysql:
   - apiVersion: v1
@@ -1409,7 +1409,7 @@ entries:
     - https://github.com/kubernetes/charts
     - https://github.com/docker-library/mysql
     urls:
-    - https://miguelciego.github.io/charts/mysql-1.6.9.tgz
+    - https://wjgb1010.github.io/charts/mysql-1.6.9.tgz
     version: 1.6.9
   mysql-am:
   - apiVersion: v1
@@ -1417,14 +1417,14 @@ entries:
     created: "2023-04-07T11:16:05.415526978-04:00"
     dependencies:
     - name: mysql-wso2
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 1.6.9
     description: A Helm chart for MySQL based deployment of WSO2 API Management Datasources
     digest: 306f0726e7ae005cd46550657b9aa713da3175f242ad4ada9244c5059d521e69
     icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
     name: mysql-am
     urls:
-    - https://miguelciego.github.io/charts/mysql-am-4.1.01.tgz
+    - https://wjgb1010.github.io/charts/mysql-am-4.1.01.tgz
     version: 4.1.01
   mysql-is:
   - apiVersion: v1
@@ -1432,7 +1432,7 @@ entries:
     created: "2023-04-07T11:16:05.424142399-04:00"
     dependencies:
     - name: mysql-wso2
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 1.6.9
     description: A Helm chart for MySQL based deployment of WSO2 Identity And Access
       Management Datasources
@@ -1440,7 +1440,7 @@ entries:
     icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
     name: mysql-is
     urls:
-    - https://miguelciego.github.io/charts/mysql-is-5.11.05.tgz
+    - https://wjgb1010.github.io/charts/mysql-is-5.11.05.tgz
     version: 5.11.05
   - apiVersion: v1
     appVersion: "5.7"
@@ -1455,7 +1455,7 @@ entries:
     icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
     name: mysql-is
     urls:
-    - https://miguelciego.github.io/charts/mysql-is-5.11.02.tgz
+    - https://wjgb1010.github.io/charts/mysql-is-5.11.02.tgz
     version: 5.11.02
   mysql-sorba:
   - annotations:
@@ -1489,7 +1489,7 @@ entries:
     - https://github.com/bitnami/containers/tree/main/bitnami/mysql
     - https://mysql.com
     urls:
-    - https://miguelciego.github.io/charts/mysql-sorba-9.4.1.tgz
+    - https://wjgb1010.github.io/charts/mysql-sorba-9.4.1.tgz
     version: 9.4.1
   mysql-wso2:
   - apiVersion: v1
@@ -1509,7 +1509,7 @@ entries:
     - https://github.com/kubernetes/charts
     - https://github.com/docker-library/mysql
     urls:
-    - https://miguelciego.github.io/charts/mysql-wso2-1.6.9.tgz
+    - https://wjgb1010.github.io/charts/mysql-wso2-1.6.9.tgz
     version: 1.6.9
   nfs-server-provisioner:
   - apiVersion: v1
@@ -1536,7 +1536,7 @@ entries:
     sources:
     - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs
     urls:
-    - https://miguelciego.github.io/charts/nfs-server-provisioner-1.1.0.tgz
+    - https://wjgb1010.github.io/charts/nfs-server-provisioner-1.1.0.tgz
     version: 1.1.0
   ng-api-gateway:
   - apiVersion: v1
@@ -1546,7 +1546,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ng-api-gateway
     urls:
-    - https://miguelciego.github.io/charts/ng-api-gateway-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/ng-api-gateway-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.43513722-04:00"
@@ -1555,7 +1555,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ng-api-gateway
     urls:
-    - https://miguelciego.github.io/charts/ng-api-gateway-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/ng-api-gateway-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.433142945-04:00"
@@ -1564,7 +1564,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ng-api-gateway
     urls:
-    - https://miguelciego.github.io/charts/ng-api-gateway-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/ng-api-gateway-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.431117131-04:00"
@@ -1573,7 +1573,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ng-api-gateway
     urls:
-    - https://miguelciego.github.io/charts/ng-api-gateway-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/ng-api-gateway-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.440042983-04:00"
@@ -1582,7 +1582,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: ng-api-gateway
     urls:
-    - https://miguelciego.github.io/charts/ng-api-gateway-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/ng-api-gateway-2.4.0.tgz
     version: 2.4.0
   oee-engine:
   - apiVersion: v1
@@ -1592,7 +1592,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: oee-engine
     urls:
-    - https://miguelciego.github.io/charts/oee-engine-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/oee-engine-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.446679479-04:00"
@@ -1601,7 +1601,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: oee-engine
     urls:
-    - https://miguelciego.github.io/charts/oee-engine-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/oee-engine-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.444236812-04:00"
@@ -1610,7 +1610,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: oee-engine
     urls:
-    - https://miguelciego.github.io/charts/oee-engine-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/oee-engine-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.442042217-04:00"
@@ -1619,7 +1619,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: oee-engine
     urls:
-    - https://miguelciego.github.io/charts/oee-engine-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/oee-engine-2.39.0.tgz
     version: 2.39.0
   oee-ui:
   - apiVersion: v1
@@ -1629,7 +1629,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: oee-ui
     urls:
-    - https://miguelciego.github.io/charts/oee-ui-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/oee-ui-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.456976955-04:00"
@@ -1638,7 +1638,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: oee-ui
     urls:
-    - https://miguelciego.github.io/charts/oee-ui-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/oee-ui-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.454217686-04:00"
@@ -1647,7 +1647,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: oee-ui
     urls:
-    - https://miguelciego.github.io/charts/oee-ui-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/oee-ui-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.452112982-04:00"
@@ -1656,7 +1656,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: oee-ui
     urls:
-    - https://miguelciego.github.io/charts/oee-ui-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/oee-ui-2.39.0.tgz
     version: 2.39.0
   platform-ui:
   - apiVersion: v1
@@ -1666,7 +1666,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: platform-ui
     urls:
-    - https://miguelciego.github.io/charts/platform-ui-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/platform-ui-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.466543491-04:00"
@@ -1675,7 +1675,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: platform-ui
     urls:
-    - https://miguelciego.github.io/charts/platform-ui-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/platform-ui-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.464363153-04:00"
@@ -1684,7 +1684,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: platform-ui
     urls:
-    - https://miguelciego.github.io/charts/platform-ui-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/platform-ui-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.461200541-04:00"
@@ -1693,7 +1693,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: platform-ui
     urls:
-    - https://miguelciego.github.io/charts/platform-ui-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/platform-ui-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.469897652-04:00"
@@ -1702,7 +1702,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: platform-ui
     urls:
-    - https://miguelciego.github.io/charts/platform-ui-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/platform-ui-2.4.0.tgz
     version: 2.4.0
   preferences-api:
   - apiVersion: v1
@@ -1712,7 +1712,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: preferences-api
     urls:
-    - https://miguelciego.github.io/charts/preferences-api-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/preferences-api-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.475272408-04:00"
@@ -1721,7 +1721,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: preferences-api
     urls:
-    - https://miguelciego.github.io/charts/preferences-api-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/preferences-api-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.473242166-04:00"
@@ -1730,7 +1730,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: preferences-api
     urls:
-    - https://miguelciego.github.io/charts/preferences-api-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/preferences-api-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.478595631-04:00"
@@ -1739,7 +1739,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: preferences-api
     urls:
-    - https://miguelciego.github.io/charts/preferences-api-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/preferences-api-2.4.0.tgz
     version: 2.4.0
   rtdb-sync-pub:
   - apiVersion: v1
@@ -1749,7 +1749,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-pub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-pub-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-pub-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.485782754-04:00"
@@ -1758,7 +1758,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-pub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-pub-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-pub-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.483775986-04:00"
@@ -1767,7 +1767,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-pub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-pub-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-pub-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.481753839-04:00"
@@ -1776,7 +1776,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-pub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-pub-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-pub-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.490854068-04:00"
@@ -1785,7 +1785,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-pub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-pub-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-pub-2.4.0.tgz
     version: 2.4.0
   rtdb-sync-sub:
   - apiVersion: v1
@@ -1795,7 +1795,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-sub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-sub-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-sub-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.498540045-04:00"
@@ -1804,7 +1804,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-sub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-sub-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-sub-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.49502849-04:00"
@@ -1813,7 +1813,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-sub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-sub-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-sub-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.492860605-04:00"
@@ -1822,7 +1822,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-sub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-sub-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-sub-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.501699266-04:00"
@@ -1831,7 +1831,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: rtdb-sync-sub
     urls:
-    - https://miguelciego.github.io/charts/rtdb-sync-sub-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/rtdb-sync-sub-2.4.0.tgz
     version: 2.4.0
   sde-socket:
   - apiVersion: v1
@@ -1841,7 +1841,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: sde-socket
     urls:
-    - https://miguelciego.github.io/charts/sde-socket-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/sde-socket-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.509325465-04:00"
@@ -1850,7 +1850,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: sde-socket
     urls:
-    - https://miguelciego.github.io/charts/sde-socket-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/sde-socket-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.507207425-04:00"
@@ -1859,7 +1859,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: sde-socket
     urls:
-    - https://miguelciego.github.io/charts/sde-socket-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/sde-socket-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.50362509-04:00"
@@ -1868,7 +1868,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: sde-socket
     urls:
-    - https://miguelciego.github.io/charts/sde-socket-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/sde-socket-2.39.0.tgz
     version: 2.39.0
   sorba-app:
   - apiVersion: v1
@@ -1876,7 +1876,7 @@ entries:
     dependencies:
     - condition: is-pattern-1.enabled
       name: is-pattern-1
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 5.11.02
     - condition: redis.enabled
       name: redis
@@ -1888,15 +1888,15 @@ entries:
       version: 9.3.5
     - condition: uuid-gen-api.enabled
       name: uuid-gen-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: rtdb-sync-pub.enabled
       name: rtdb-sync-pub
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: rtdb-sync-sub.enabled
       name: rtdb-sync-sub
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: influxdb.enabled
       name: influxdb
@@ -1904,35 +1904,35 @@ entries:
       version: 2.0.5
     - condition: hdfs-api.enabled
       name: hdfs-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: ml-trainer-api.enabled
       name: ml-trainer-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: ml-trainer-ui.enabled
       name: ml-trainer-ui
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: preferences-api.enabled
       name: preferences-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: tree-api.enabled
       name: tree-api
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: ng-api-gateway.enabled
       name: ng-api-gateway
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: platform-ui.enabled
       name: platform-ui
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: mqtt-to-influxdb-2y.enabled
       name: mqtt-to-influxdb-2y
-      repository: https://miguelciego.github.io/charts
+      repository: https://wjgb1010.github.io/charts
       version: 2.4.0
     - condition: grafana.enabled
       name: grafana
@@ -1951,7 +1951,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: sorba-app
     urls:
-    - https://miguelciego.github.io/charts/sorba-app-0.1.0.tgz
+    - https://wjgb1010.github.io/charts/sorba-app-0.1.0.tgz
     version: 0.1.0
   sorba-identity-api:
   - apiVersion: v1
@@ -1961,7 +1961,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: sorba-identity-api
     urls:
-    - https://miguelciego.github.io/charts/sorba-identity-api-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/sorba-identity-api-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.54995934-04:00"
@@ -1970,7 +1970,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: sorba-identity-api
     urls:
-    - https://miguelciego.github.io/charts/sorba-identity-api-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/sorba-identity-api-2.39.0.tgz
     version: 2.39.0
   task-flows-backend:
   - apiVersion: v1
@@ -1980,7 +1980,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: task-flows-backend
     urls:
-    - https://miguelciego.github.io/charts/task-flows-backend-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/task-flows-backend-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.560038592-04:00"
@@ -1989,7 +1989,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: task-flows-backend
     urls:
-    - https://miguelciego.github.io/charts/task-flows-backend-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/task-flows-backend-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.556411214-04:00"
@@ -1998,7 +1998,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: task-flows-backend
     urls:
-    - https://miguelciego.github.io/charts/task-flows-backend-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/task-flows-backend-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.554231558-04:00"
@@ -2007,7 +2007,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: task-flows-backend
     urls:
-    - https://miguelciego.github.io/charts/task-flows-backend-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/task-flows-backend-2.39.0.tgz
     version: 2.39.0
   task-flows-frontend:
   - apiVersion: v1
@@ -2017,7 +2017,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: task-flows-frontend
     urls:
-    - https://miguelciego.github.io/charts/task-flows-frontend-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/task-flows-frontend-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.569912085-04:00"
@@ -2026,7 +2026,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: task-flows-frontend
     urls:
-    - https://miguelciego.github.io/charts/task-flows-frontend-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/task-flows-frontend-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.56740753-04:00"
@@ -2035,7 +2035,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: task-flows-frontend
     urls:
-    - https://miguelciego.github.io/charts/task-flows-frontend-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/task-flows-frontend-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.564202644-04:00"
@@ -2044,7 +2044,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: task-flows-frontend
     urls:
-    - https://miguelciego.github.io/charts/task-flows-frontend-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/task-flows-frontend-2.39.0.tgz
     version: 2.39.0
   tenant-management-api:
   - apiVersion: v1
@@ -2054,7 +2054,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tenant-management-api
     urls:
-    - https://miguelciego.github.io/charts/tenant-management-api-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/tenant-management-api-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.573997598-04:00"
@@ -2063,7 +2063,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tenant-management-api
     urls:
-    - https://miguelciego.github.io/charts/tenant-management-api-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/tenant-management-api-2.39.1.tgz
     version: 2.39.1
   tenant-management-ui:
   - apiVersion: v1
@@ -2073,7 +2073,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tenant-management-ui
     urls:
-    - https://miguelciego.github.io/charts/tenant-management-ui-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/tenant-management-ui-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.579480992-04:00"
@@ -2082,7 +2082,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tenant-management-ui
     urls:
-    - https://miguelciego.github.io/charts/tenant-management-ui-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/tenant-management-ui-2.39.1.tgz
     version: 2.39.1
   testlink:
   - annotations:
@@ -2119,7 +2119,7 @@ entries:
     - https://github.com/bitnami/bitnami-docker-testlink
     - https://www.testlink.org/
     urls:
-    - https://miguelciego.github.io/charts/testlink-10.0.14.tgz
+    - https://wjgb1010.github.io/charts/testlink-10.0.14.tgz
     version: 10.0.14
   tree-api:
   - apiVersion: v1
@@ -2129,7 +2129,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tree-api
     urls:
-    - https://miguelciego.github.io/charts/tree-api-2.39.5.tgz
+    - https://wjgb1010.github.io/charts/tree-api-2.39.5.tgz
     version: 2.39.5
   - apiVersion: v1
     created: "2023-04-07T11:16:05.59991138-04:00"
@@ -2138,7 +2138,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tree-api
     urls:
-    - https://miguelciego.github.io/charts/tree-api-2.39.4.tgz
+    - https://wjgb1010.github.io/charts/tree-api-2.39.4.tgz
     version: 2.39.4
   - apiVersion: v1
     created: "2023-04-07T11:16:05.597985486-04:00"
@@ -2147,7 +2147,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tree-api
     urls:
-    - https://miguelciego.github.io/charts/tree-api-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/tree-api-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.595903304-04:00"
@@ -2156,7 +2156,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tree-api
     urls:
-    - https://miguelciego.github.io/charts/tree-api-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/tree-api-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.592432571-04:00"
@@ -2165,7 +2165,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tree-api
     urls:
-    - https://miguelciego.github.io/charts/tree-api-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/tree-api-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.590407609-04:00"
@@ -2174,7 +2174,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tree-api
     urls:
-    - https://miguelciego.github.io/charts/tree-api-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/tree-api-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.604888259-04:00"
@@ -2183,7 +2183,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: tree-api
     urls:
-    - https://miguelciego.github.io/charts/tree-api-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/tree-api-2.4.0.tgz
     version: 2.4.0
   uuid-gen-api:
   - apiVersion: v1
@@ -2193,7 +2193,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: uuid-gen-api
     urls:
-    - https://miguelciego.github.io/charts/uuid-gen-api-2.39.7.tgz
+    - https://wjgb1010.github.io/charts/uuid-gen-api-2.39.7.tgz
     version: 2.39.7
   - apiVersion: v1
     created: "2023-04-07T11:16:05.617956514-04:00"
@@ -2202,7 +2202,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: uuid-gen-api
     urls:
-    - https://miguelciego.github.io/charts/uuid-gen-api-2.39.6.tgz
+    - https://wjgb1010.github.io/charts/uuid-gen-api-2.39.6.tgz
     version: 2.39.6
   - apiVersion: v1
     created: "2023-04-07T11:16:05.615965005-04:00"
@@ -2211,7 +2211,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: uuid-gen-api
     urls:
-    - https://miguelciego.github.io/charts/uuid-gen-api-2.39.5.tgz
+    - https://wjgb1010.github.io/charts/uuid-gen-api-2.39.5.tgz
     version: 2.39.5
   - apiVersion: v1
     created: "2023-04-07T11:16:05.613995668-04:00"
@@ -2220,7 +2220,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: uuid-gen-api
     urls:
-    - https://miguelciego.github.io/charts/uuid-gen-api-2.39.3.tgz
+    - https://wjgb1010.github.io/charts/uuid-gen-api-2.39.3.tgz
     version: 2.39.3
   - apiVersion: v1
     created: "2023-04-07T11:16:05.611535908-04:00"
@@ -2229,7 +2229,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: uuid-gen-api
     urls:
-    - https://miguelciego.github.io/charts/uuid-gen-api-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/uuid-gen-api-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.609097989-04:00"
@@ -2238,7 +2238,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: uuid-gen-api
     urls:
-    - https://miguelciego.github.io/charts/uuid-gen-api-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/uuid-gen-api-2.39.1.tgz
     version: 2.39.1
   - apiVersion: v1
     created: "2023-04-07T11:16:05.606986201-04:00"
@@ -2247,7 +2247,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: uuid-gen-api
     urls:
-    - https://miguelciego.github.io/charts/uuid-gen-api-2.39.0.tgz
+    - https://wjgb1010.github.io/charts/uuid-gen-api-2.39.0.tgz
     version: 2.39.0
   - apiVersion: v1
     created: "2023-04-07T11:16:05.621937523-04:00"
@@ -2256,7 +2256,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: uuid-gen-api
     urls:
-    - https://miguelciego.github.io/charts/uuid-gen-api-2.4.0.tgz
+    - https://wjgb1010.github.io/charts/uuid-gen-api-2.4.0.tgz
     version: 2.4.0
   vernemq:
   - apiVersion: v1
@@ -2267,7 +2267,7 @@ entries:
     icon: http://www.stickpng.com/assets/thumbs/58482b21cef1014c0b5e4a24.png
     name: vernemq
     urls:
-    - https://miguelciego.github.io/charts/vernemq-1.6.12.tgz
+    - https://wjgb1010.github.io/charts/vernemq-1.6.12.tgz
     version: 1.6.12
   - apiVersion: v1
     appVersion: 1.11.0
@@ -2277,7 +2277,7 @@ entries:
     icon: http://www.stickpng.com/assets/thumbs/58482b21cef1014c0b5e4a24.png
     name: vernemq
     urls:
-    - https://miguelciego.github.io/charts/vernemq-1.6.7.tgz
+    - https://wjgb1010.github.io/charts/vernemq-1.6.7.tgz
     version: 1.6.7
   vpn-spa:
   - apiVersion: v1
@@ -2287,7 +2287,7 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: vpn-spa
     urls:
-    - https://miguelciego.github.io/charts/vpn-spa-2.39.2.tgz
+    - https://wjgb1010.github.io/charts/vpn-spa-2.39.2.tgz
     version: 2.39.2
   - apiVersion: v1
     created: "2023-04-07T11:16:05.625215389-04:00"
@@ -2296,6 +2296,6 @@ entries:
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: vpn-spa
     urls:
-    - https://miguelciego.github.io/charts/vpn-spa-2.39.1.tgz
+    - https://wjgb1010.github.io/charts/vpn-spa-2.39.1.tgz
     version: 2.39.1
 generated: "2023-04-07T11:16:04.767640059-04:00"
